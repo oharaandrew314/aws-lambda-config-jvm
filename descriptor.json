@@ -1,0 +1,24 @@
+{
+  "package": {
+    "name": "aws-lambda-config-jvm",
+    "repo": "maven-public",
+    "website_url": "https://github.com/oharaandrew314/aws-lambda-config-jvm",
+    "issue_tracker_url": "https://github.com/oharaandrew314/aws-lambda-config-jvm/issues",
+    "vcs_url": "https://github.com/oharaandrew314/aws-lambda-config-jvm.git",
+    "licenses": ["MIT"],
+    "labels": ["kotlin", "bintray", "gradle", "aws", "aws-lambda"],
+    "public_download_numbers": true,
+    "public_stats": true
+  },
+
+  "version": {
+    "name": "0.1.0",
+    "gpgSign": false
+  },
+
+  "files":
+  [
+    {"includePattern": "build/libs/(.*)"}
+  ],
+  "publish": true
+}
