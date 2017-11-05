@@ -9,14 +9,9 @@ buildscript {
     }
 }
 
-//plugins {
-//    id "com.jfrog.bintray" version "1.7.3"
-//}
-//
 group 'io.andrewohara'
-version '0.1.0'
+version '0.1.1'
 
-//apply plugin: 'java-library'
 apply plugin: 'maven-publish'
 apply plugin: 'kotlin'
 
@@ -24,9 +19,6 @@ apply plugin: 'kotlin'
 
 repositories {
     jcenter()
-//    maven {
-//        url  "https://dl.bintray.com/oharaandrew314/aws-lambda-config"
-//    }
 }
 
 dependencies {
@@ -45,29 +37,6 @@ compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
 
-//bintray {
-//    user = System.getenv('BINTRAY_USER')
-//    key = System.getenv('BINTRAY_KEY')
-//    publications = ['AwsLambdaConfigJvm']
-//    pkg {
-//        repo = 'maven-public'
-//        name = 'aws-lambda-config-jvm'
-//        licenses = ['MIT']
-//        vcsUrl = 'https://github.com/oharaandrew314/aws-lambda-config-jvm.git'
-//    }
-//}
-
-//publishing {
-//    publications {
-//        AwsLambdaConfigJvm(MavenPublication) {
-//            from components.java
-//            groupId 'io.andrewohara'
-//            artifactId 'aws-lambda-config-jvm'
-//            version "$version"
-//        }
-//    }
-//}
-
 publishing {
     publications {
         maven(MavenPublication) {
@@ -82,6 +51,13 @@ publishing {
                 }
             }
         }
+    }
+}
+
+test {
+    testLogging {
+        events "failed"
+        exceptionFormat "short"
     }
 }
 

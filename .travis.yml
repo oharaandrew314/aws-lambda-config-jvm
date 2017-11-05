@@ -2,10 +2,14 @@ sudo: false
 language: java
 java:
 - openjdk8
+env:
+ - AWS_ACCESS_KEY_ID=fakeid AWS_SECRET_ACCESS_KEY=fakesecret AWS_SESSION_TOKEN=fakesession AWS_REGION=us-east-1 AWS_DEFAULT_REGION=us-east-1
+before_install:
+  - chmod +x gradlew
 after_success:
   - bash <(curl -s https://codecov.io/bash)
 before_deploy:
-  - gradle generatePomFileForMavenPublication
+  - ./gradlew generatePomFileForMavenPublication
 deploy:
   provider: bintray
   file: descriptor.json

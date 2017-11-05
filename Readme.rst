@@ -1,5 +1,5 @@
-serverless-config
-=================
+aws-lambda-config-jvm
+=====================
 
 .. image:: https://travis-ci.org/oharaandrew314/aws-lambda-config-jvm.svg?branch=master
     :target: https://travis-ci.org/oharaandrew314/aws-lambda-config-jvm
