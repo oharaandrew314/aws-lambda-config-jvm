@@ -29,7 +29,7 @@ Add the dependency to your *build.gradle*:
     
     dependencies {
       ...
-      compile 'io.andrewohara:aws-lambda-config-jvm:0.1.1'
+      compile 'io.andrewohara:aws-lambda-config-jvm:0.1.2'
     }
 
 
