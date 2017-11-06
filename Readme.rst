@@ -60,6 +60,6 @@ Quickstart
 
 The default config will first search for the parameter in the *environment*.  If it is not there, then it will search *SSM*.
 
-Encrypted secrets are supported with via *SSM*.  If you want to decrypt the parameter in transit, then be sure to add **decrypt=true**.
+Encrypted secrets are supported via *SSM*.  If you want to decrypt the parameter in transit, then be sure to add **decrypt=true**.
 
 If a parameter is not found, it will return null.
