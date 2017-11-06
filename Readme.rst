@@ -11,6 +11,8 @@ A simple configuration client for AWS serverless JVM systems, written in Kotlin.
 
 Supports the **System Environment**, and **AWS SSM Parameter Store**.  It is extendable to support your own custom configs, too.
 
+There is also a `python version <https://github.com/oharaandrew314/serverless-config>`_.
+
 Installation
 ------------
 
