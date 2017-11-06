@@ -6,6 +6,9 @@ aws-lambda-config-jvm
 
 .. image:: https://api.bintray.com/packages/oharaandrew314/maven-public/aws-lambda-config-jvm/images/download.svg
     :target: https://bintray.com/oharaandrew314/maven-public/aws-lambda-config-jvm/_latestVersion
+    
+.. image:: https://codecov.io/gh/oharaandrew314/aws-lambda-config-jvm/branch/master/graph/badge.svg
+  :target: https://codecov.io/gh/oharaandrew314/aws-lambda-config-jvm
 
 A simple configuration client for AWS serverless JVM systems, written in Kotlin.
 
