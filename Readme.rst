@@ -44,7 +44,7 @@ Quickstart
 
     val stringProp: String? = config.getStr("string_prop")
     val intProp: Int? = config.getInt("missing_int_prop", defaultValue=123)
-    val secretProp: String? = config.getStr("secret_prop", decrypt=True)
+    val secretProp: String? = config.getStr("secret_prop", decrypt=true)
     
 .. code-block:: java
 
@@ -54,7 +54,7 @@ Quickstart
     
     final String stringProp = config.getStr("string_prop");
     final int intProp = config.getInt("missing_int_prop", defaultValue=123);
-    final String secretProp = config.getStr("secret_prop", decrypt=True);
+    final String secretProp = config.getStr("secret_prop", decrypt=true);
     
     
 
