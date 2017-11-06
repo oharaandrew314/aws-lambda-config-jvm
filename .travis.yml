@@ -8,8 +8,3 @@ before_install:
   - chmod +x gradlew
 after_success:
  - ./gradlew bintrayUpload
-deploy:
-  provider: bintray
-  file: descriptor.json
-  user: $BINTRAY_USER
-  key: $BINTRAY_KEY

@@ -1,5 +1,5 @@
 ext {
-    artifact_version = '0.1.1'
+    artifact_version = '0.1.2'
     artifact_id = 'aws-lambda-config-jvm'
     artifact_group = 'io.andrewohara'
     artifact_description = 'A simple configuration client for AWS serverless JVM systems, written in Kotlin'
