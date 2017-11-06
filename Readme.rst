@@ -15,7 +15,17 @@ Add **jcenter** to your repositories
 
 .. code-block:: groovy
 
-    compile 'io.andrewohara:aws-lambda-config-jvm:0.1.0'
+    repositories {
+      ...
+      maven {
+        url 'https://dl.bintray.com/oharaandrew314/maven-public'
+      }
+    }
+    
+    dependencies {
+      ...
+      compile 'io.andrewohara:aws-lambda-config-jvm:0.1.1'
+    }
 
 
 Quickstart
