@@ -16,7 +16,7 @@ There is also a `python version <https://github.com/oharaandrew314/serverless-co
 Installation
 ------------
 
-Add **jcenter** to your repositories
+Add the dependency to your *build.gradle*:
 
 .. code-block:: groovy
 
