@@ -4,6 +4,9 @@ aws-lambda-config-jvm
 .. image:: https://travis-ci.org/oharaandrew314/aws-lambda-config-jvm.svg?branch=master
     :target: https://travis-ci.org/oharaandrew314/aws-lambda-config-jvm
 
+.. image:: https://api.bintray.com/packages/oharaandrew314/maven-public/aws-lambda-config-jvm/images/download.svg
+    :target: https://bintray.com/oharaandrew314/maven-public/aws-lambda-config-jvm/_latestVersion
+
 A simple configuration client for AWS serverless JVM systems, written in Kotlin.
 
 Supports the **System Environment**, and **AWS SSM Parameter Store**.  It is extendable to support your own custom configs, too.
